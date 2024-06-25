@@ -16,6 +16,7 @@
     "@fontsource/volkhov": "^5.0.12",
     "@mui/material": "^5.15.20",
     "lucide-react": "^0.396.0",
+    "prop-types": "^15.8.1",
     "react": "^18.3.1",
     "react-bootstrap": "^2.10.3",
     "react-dom": "^18.3.1",

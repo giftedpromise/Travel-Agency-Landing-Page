@@ -1,6 +1,8 @@
 import React from "react";
 import NavBar from "./components/NavBar";
 import HeroSection from "./components/page-layout/HeroSection";
+import CategorySection from "./components/page-layout/CategorySection";
+
 import "./index.css";
 
 function App() {
@@ -17,6 +19,12 @@ function App() {
             src="/images/top-left-gradient.png"
             alt="blob background shape"
           />
+        </div>
+        <div className="relative">
+          <CategorySection />
+          <div className="absolute right-0 top-0">
+            <img src="/images/plus-group.png" alt="blob background shape" />
+          </div>
         </div>
       </div>
     </main>

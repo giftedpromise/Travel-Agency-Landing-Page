@@ -26,10 +26,10 @@ function HeroSection() {
           </p>
         </div>
 
-        <p className="my-[1.6rem] w-3/4 text-[1rem] font-medium leading-[1.692rem] text-lightGray">
-          Built Wicket longer admire do barton vanity itself do in it. Preferred
-          to sportsmen it engrossed listening. Park gate sell they west hard for
-          the.
+        <p className="my-[1.6rem] px-2 text-center text-[1rem] font-medium leading-[1.692rem] text-lightGray sm:px-0">
+          Built Wicket longer admire do barton vanity itself do in it.
+          <br className="hidden sm:block" /> Preferred to sportsmen it engrossed
+          listening. Park gate sell they west hard for the.
         </p>
 
         <div className="flex items-center gap-6">
