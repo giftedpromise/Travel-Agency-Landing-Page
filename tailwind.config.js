@@ -23,6 +23,9 @@ export default {
       fontSize: {
         "17px": "17px",
       },
+      letterSpacing: {
+        tighter: "-0.04em", // -4%
+      },
       colors: {
         primary: "#DF6951",
         secondary: "#F1A501",

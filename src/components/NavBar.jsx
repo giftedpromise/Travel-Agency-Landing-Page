@@ -79,11 +79,11 @@ function NavBar() {
           <div className="animate-in slide-in-from-right my-8 select-none">
             <div className="mx-4 mt-8 flex flex-col gap-8">
               <div className="flex select-none flex-col gap-[20px] text-[16px] xl:gap-[50px]">
-                <p className="text-17px flex cursor-pointer items-center gap-2 font-normal text-navText hover:text-white">
+                <p className="flex cursor-pointer items-center gap-2 font-[600] text-navText hover:text-white">
                   Destinations
                 </p>
 
-                <p className="flex cursor-pointer items-center gap-2 font-[400] text-navText hover:text-white">
+                <p className="flex cursor-pointer items-center gap-2 font-[600] text-navText hover:text-white">
                   Hotels
                 </p>
                 <p className="flex cursor-pointer items-center gap-2 font-[600] text-navText hover:text-white">
@@ -98,10 +98,7 @@ function NavBar() {
                 >
                   Login
                 </Link>
-                <MainButton
-                  text="Sign up"
-                  classes="bg-secondary hover:bg-secondary text-navText font-[600] shadow-none rounded-normal border border-none hover:text-white"
-                />
+                <MainButton text="Sign up" />
                 <div className="flex cursor-pointer items-center gap-2">
                   <p className="font-[700]">EN</p>
                   <div>
