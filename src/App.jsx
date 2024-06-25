@@ -1,11 +1,13 @@
 import React from "react";
-import "./App.css";
+import NavBar from "./components/NavBar";
+import "./index.css";
 
 function App() {
   return (
-    <div className="bg-blue-500 p-4 text-white">
-      <h1 className="text-2xl">Hello, Tailwind!</h1>
-    </div>
+    <main className="font-poppins relative md:px-[9rem]">
+      <NavBar />
+    </main>
   );
 }
+
 export default App;

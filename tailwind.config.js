@@ -17,6 +17,12 @@ export default {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
       },
+      fontFamily: {
+        "google-sans": ['"Google Sans"', "sans-serif"],
+      },
+      fontSize: {
+        "17px": "17px",
+      },
       colors: {
         primary: "#DF6951",
         secondary: "#F1A501",
