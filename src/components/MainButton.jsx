@@ -4,15 +4,15 @@ import Button from "@mui/material/Button";
 import { styled } from "@mui/material/styles";
 
 const CustomButton = styled(Button)(({ theme, isGradient }) => ({
-  width: "102px", // Width
-  height: "40px", // Height
+  width: "102px", // Default width
+  height: "40px", // Default height
   backgroundColor: "transparent", // Transparent background
-  color: "#212832", // Text color
+  color: "#212832", // Default text color
   fontFamily: "Google Sans", // Font family
   borderRadius: "5px", // Border radius
   borderWidth: "1px", // Border width
   borderStyle: "solid", // Border style
-  borderColor: "#212832", // Border color
+  borderColor: "#212832", // Default border color
   boxShadow: "none",
   "&:hover": {
     backgroundColor: "#DF6951", // Hover background color
@@ -43,6 +43,7 @@ const MainButton = forwardRef(
       rightIconClass = "w-[24px] h-[24px]",
       iconComponent,
       isGradient,
+      customStyles, // New prop for custom styles
     },
     ref,
   ) => {
@@ -55,6 +56,7 @@ const MainButton = forwardRef(
         disabled={disabled}
         className={`${classes} ${isGradient ? "red-gradient" : ""}`}
         sx={{
+          ...customStyles, // Apply custom styles
           textTransform: "capitalize", // Ensures only the first letter is uppercase
         }}
       >

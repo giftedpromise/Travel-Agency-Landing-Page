@@ -10,7 +10,7 @@ function NavBar() {
   };
 
   return (
-    <div className="z-20 md:sticky md:top-0 md:shadow-none">
+    <div className="z-20 md:top-0 md:shadow-none">
       {/* DESKTOP VIEW */}
       <div className="animate-in fade-in zoom-in hidden p-4 lg:block">
         <div className="flex items-center justify-between">
@@ -19,22 +19,22 @@ function NavBar() {
           </div>
           <div className="flex select-none items-center gap-[20px] text-[16px] xl:gap-[50px]">
             {/* Navigation links */}
-            <p className="font-google-sans text-17px flex cursor-pointer items-center gap-2 font-normal text-navText hover:text-primary">
+            <p className="flex cursor-pointer items-center gap-2 font-google-sans text-17px font-normal text-navText hover:text-primary">
               Destinations
             </p>
 
-            <p className="font-google-sans text-17px flex cursor-pointer items-center gap-2 font-normal text-navText hover:text-primary">
+            <p className="flex cursor-pointer items-center gap-2 font-google-sans text-17px font-normal text-navText hover:text-primary">
               Hotels
             </p>
-            <p className="font-google-sans text-17px flex cursor-pointer items-center gap-2 font-medium text-navText hover:text-primary">
+            <p className="flex cursor-pointer items-center gap-2 font-google-sans text-17px font-medium text-navText hover:text-primary">
               Flights
             </p>
-            <p className="font-google-sans text-17px flex cursor-pointer items-center gap-2 font-medium text-navText hover:text-primary">
+            <p className="flex cursor-pointer items-center gap-2 font-google-sans text-17px font-medium text-navText hover:text-primary">
               Bookings
             </p>
             <Link
               to="/auth/login"
-              className="font-google-sans text-17px flex cursor-pointer items-center gap-2 font-medium text-navText hover:text-primary"
+              className="flex cursor-pointer items-center gap-2 font-google-sans text-17px font-medium text-navText hover:text-primary"
             >
               Login
             </Link>
