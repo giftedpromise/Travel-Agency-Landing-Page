@@ -4,6 +4,8 @@
 @import "@fontsource/poppins/700.css";
 @import "@fontsource/volkhov/400.css";
 @import "@fontsource/volkhov/700.css";
+@import "@fontsource/open-sans/400.css";
+@import "@fontsource/open-sans/600.css";
 
 @tailwind base;
 @tailwind components;
@@ -19,4 +21,8 @@
 
 .font-volkhov {
   font-family: "Volkhov", serif;
+}
+
+.font-open-sans {
+  font-family: "Open Sans", sans-serif; /* Add this class */
 }

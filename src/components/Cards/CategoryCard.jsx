@@ -3,7 +3,7 @@ import React from "react";
 function CategoryCard({ iconUrl, title, description, highlighted }) {
   return (
     <div
-      className={`relative flex w-full flex-col items-center gap-4 p-[1rem] ${
+      className={`relative flex w-full flex-col items-center gap-4 p-[1.2rem] ${
         highlighted ? "rounded-[2.5rem] bg-white shadow-md" : ""
       }`}
     >

@@ -2,6 +2,7 @@ import React from "react";
 import NavBar from "./components/NavBar";
 import HeroSection from "./components/page-layout/HeroSection";
 import CategorySection from "./components/page-layout/CategorySection";
+import SellingSection from "./components/page-layout/SellingSection";
 
 import "./index.css";
 
@@ -27,6 +28,7 @@ function App() {
           </div>
         </div>
       </div>
+      <SellingSection />
     </main>
   );
 }
