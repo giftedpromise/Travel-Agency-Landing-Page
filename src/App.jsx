@@ -3,6 +3,9 @@ import NavBar from "./components/NavBar";
 import HeroSection from "./components/page-layout/HeroSection";
 import CategorySection from "./components/page-layout/CategorySection";
 import SellingSection from "./components/page-layout/SellingSection";
+import BookNextTripSection from "./components/page-layout/BookNextTripSection";
+import TestimonialSection from "./components/page-layout/TestimonialSection";
+import LogoGroupSection from "./components/page-layout/LogoGroupSection";
 
 import "./index.css";
 
@@ -28,7 +31,22 @@ function App() {
           </div>
         </div>
       </div>
-      <SellingSection />
+      <div className="mb-48">
+        {" "}
+        <SellingSection />
+      </div>
+      <div className="mt-44">
+        {" "}
+        <BookNextTripSection />
+      </div>
+      <div className="mt-44">
+        {" "}
+        <TestimonialSection />
+      </div>
+      <div className="mt-28">
+        {" "}
+        <LogoGroupSection />
+      </div>
     </main>
   );
 }
