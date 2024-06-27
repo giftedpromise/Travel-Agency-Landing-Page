@@ -39,6 +39,7 @@ export default {
         lightBlack: "#080809",
         lightPink: "#8A79DF",
         navText: "#212832",
+        subBg: "#DFD7F9",
       },
     },
   },

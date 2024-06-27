@@ -14,13 +14,15 @@ const TestimonialCard = ({
       }`}
     >
       <div className="relative">
-        <p className="text-1rem font-semibold leading-8 text-lightGray">
+        <p className="font-poppins text-base font-normal leading-8 text-lightGray">
           &apos;&apos; {review} &apos;&apos;
         </p>
-        <p className="mt-[2.12rem] text-[1.125rem] font-semibold text-lightGray">
+        <p className="font-poppins mt-[2.12rem] text-[1.125rem] font-semibold text-lightGray">
           {reviewerName}
         </p>
-        <p className="text-[0.875rem] font-medium text-lightGray">{position}</p>
+        <p className="font-poppins text-[0.875rem] font-medium text-lightGray">
+          {position}
+        </p>
         <div className="absolute top-[-4rem] md:left-[-4rem]">
           {!isBackdrop && (
             <img

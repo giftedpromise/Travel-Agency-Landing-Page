@@ -6,7 +6,8 @@ import SellingSection from "./components/page-layout/SellingSection";
 import BookNextTripSection from "./components/page-layout/BookNextTripSection";
 import TestimonialSection from "./components/page-layout/TestimonialSection";
 import LogoGroupSection from "./components/page-layout/LogoGroupSection";
-
+import SubscribeSection from "./components/page-layout/SubscribeSection";
+import FooterSection from "./components/page-layout/FooterSection";
 import "./index.css";
 
 function App() {
@@ -43,10 +44,15 @@ function App() {
         {" "}
         <TestimonialSection />
       </div>
-      <div className="mt-28">
+      <div className="mb-28 mt-28">
         {" "}
         <LogoGroupSection />
       </div>
+      <div className="mb-48">
+        {" "}
+        <SubscribeSection />
+      </div>
+      <FooterSection />
     </main>
   );
 }

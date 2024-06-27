@@ -13,6 +13,8 @@
 
 .red-gradient {
   background: linear-gradient(180deg, #ff946d 0%, #ff7d68 100%);
+  color: white !important; /* Ensure the text color is white */
+  border: none !important; /* Ensure the border is removed */
 }
 
 .font-poppins {
