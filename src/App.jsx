@@ -13,6 +13,15 @@ import "./index.css";
 function App() {
   return (
     <main className="font-poppins relative md:px-[9rem]">
+      <style>
+        {`
+          @media screen and (max-width: 768px) {
+            body {
+              overflow-x: hidden; /* Hide horizontal overflow on small screens */
+            }
+          }
+        `}
+      </style>
       <NavBar />
       <div className="flex flex-col gap-[7.69rem] px-4">
         <HeroSection />
