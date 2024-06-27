@@ -9,7 +9,7 @@ function HeroSection() {
           Best Destinations around the world
         </p>
         <div className="flex flex-col">
-          <div className="volkhov leading-large text-[2.5rem] font-[700] text-lightBlue md:text-[3.8rem]">
+          <div className="volkhov leading-large inline-flex text-[2rem] font-[700] text-lightBlue md:text-[3rem] lg:text-[3.8rem]">
             Travel,
             <div className="flex flex-col">
               <span className="z-10 ml-8">enjoy</span>
@@ -21,7 +21,7 @@ function HeroSection() {
             </div>
           </div>
 
-          <p className="volkhov leading-large text-[2.5rem] font-[700] text-lightBlue md:text-[3.8rem]">
+          <p className="volkhov leading-large inline-flex text-[2rem] font-[700] text-lightBlue md:text-[3rem] lg:text-[3.8rem]">
             and live a new and full life
           </p>
         </div>
