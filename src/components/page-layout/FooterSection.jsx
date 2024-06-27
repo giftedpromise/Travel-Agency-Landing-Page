@@ -37,7 +37,7 @@ function FooterSection() {
               </p>
             </div>
           </div>
-          <div className="flex flex-col gap-4">
+          <div className="flex min-w-[8rem] flex-col gap-4">
             <p className="text-[1.3125rem] font-[700] text-lightBlack">More</p>
             <div className="flex flex-col gap-2">
               <p className="text-[1rem] font-normal text-lightGray">
@@ -50,40 +50,41 @@ function FooterSection() {
             </div>
           </div>
         </div>
-        <div className="flex flex-col items-center gap-4">
+        <div className="ml-4 flex flex-col items-center gap-4 lg:ml-16">
           <div className="flex items-center gap-4">
             <img src="/images/facebook-icon.png" alt="social icon" />
             <img src="/images/instagram-icon.png" alt="social icon" />
+            <img src="/images/circle.png" alt="social icon" />
             <img src="/images/x-icon.png" alt="social icon" />
           </div>
           <p className="text-[1.25rem] font-[500] text-lightGray">
             Discover our app
           </p>
-          <div className="flex flex-col gap-8 md:flex-row">
-            <div className="rounded-extraLarge w-[11rem] bg-lightBlack px-[1.06rem] py-[0.58rem]">
+          <div className="flex flex-col gap-4 md:flex-row">
+            <div className="rounded-extraLarge w-[9rem] bg-lightBlack px-[1.06rem] py-[0.58rem]">
               <div className="flex items-center gap-4">
                 <img
                   src="/images/google-play-icon.png"
                   alt="google play icon"
                 />
                 <div>
-                  <p className="text-[0.7rem] font-[700] uppercase text-white">
+                  <p className="text-[0.5rem] font-[700] uppercase text-white">
                     get it on
                   </p>
-                  <p className="text-[0.7rem] uppercase text-white">
+                  <p className="text-[0.5rem] uppercase text-white">
                     Google Play
                   </p>
                 </div>
               </div>
             </div>
-            <div className="rounded-extraLarge w-[11rem] bg-lightBlack px-[1.06rem] py-[0.58rem]">
+            <div className="rounded-extraLarge w-[9rem] bg-lightBlack px-[1.06rem] py-[0.58rem]">
               <div className="flex items-center gap-4">
                 <img src="/images/app-icon.png" alt="apple store icon" />
                 <div>
-                  <p className="text-[0.7rem] font-[700] uppercase text-white">
+                  <p className="text-[0.5rem] font-[700] uppercase text-white">
                     Available on the
                   </p>
-                  <p className="text-[0.7rem] uppercase text-white">
+                  <p className="text-[0.5rem] uppercase text-white">
                     Apple Store
                   </p>
                 </div>

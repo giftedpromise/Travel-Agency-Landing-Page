@@ -32,8 +32,12 @@ function BookNextTripSection() {
         <p className="font-poppins text-left text-[1.125rem] font-semibold text-lightGray">
           Easy and Fast
         </p>
-        <p className="volkhov text-left text-[3.125rem] font-bold text-title">
-          Book your next trip <br /> in 3 easy steps
+        <p className="volkhov text-left text-[1.875rem] font-bold text-title md:text-[3.125rem]">
+          Book your next trip
+          <span className="block md:hidden"> in 3 easy steps</span>
+          <span className="hidden md:inline">
+            <br /> in 3 easy steps
+          </span>
         </p>
 
         <div className="mt-[1.94rem] flex flex-col gap-[3rem]">
