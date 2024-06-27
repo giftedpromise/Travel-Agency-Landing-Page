@@ -57,6 +57,7 @@ function NavBar() {
       {/* MOBILE VIEW */}
       <div
         className={`animate-in fade-in zoom-in fixed top-0 z-[999] block w-full py-4 shadow-sm lg:hidden ${menu ? "bg-primary py-2" : "bg-white"}`}
+        style={{ overflowX: "hidden" }}
       >
         <div className="mx-[10px] flex justify-between">
           <div className="flex select-none items-center gap-[50px] text-[16px]">

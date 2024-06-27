@@ -3,7 +3,10 @@ import MainButton from "../MainButton";
 
 function HeroSection() {
   return (
-    <section className="mt-16 flex items-center justify-between md:z-[9999]">
+    <section
+      className="mt-16 flex items-center justify-between md:z-[9999]"
+      style={{ overflowX: "hidden" }}
+    >
       <div className="pt-32 md:pt-4">
         <p className="font-poppins mb-4 text-[1.128rem] font-[700] uppercase text-primary">
           Best Destinations around the world
