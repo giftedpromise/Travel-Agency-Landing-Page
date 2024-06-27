@@ -26,6 +26,9 @@ export default {
       letterSpacing: {
         tighter: "-0.04em", // -4%
       },
+      borderRadius: {
+        extraLarge: "1.5rem", // You can adjust this value as needed
+      },
       colors: {
         primary: "#DF6951",
         secondary: "#F1A501",

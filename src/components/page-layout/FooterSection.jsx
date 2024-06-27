@@ -2,14 +2,14 @@ import React from "react";
 
 function FooterSection() {
   return (
-    <section>
-      <div className="flex flex-col justify-between gap-8 md:flex-row">
-        <div>
+    <section className="mx-auto max-w-screen-xl px-4">
+      <div className="flex flex-col justify-between gap-4 md:flex-row">
+        <div className="max-w-sm">
           <p>
             <img src="/images/logo-bottom.png" alt="footer logo" />
           </p>
-          <p className="mt-[1.19rem] text-lightGray md:max-w-[20rem] lg:max-w-[24rem]">
-            Book your trip in minute, get full Control for much longer.
+          <p className="mt-[1.19rem] text-lightGray md:w-[20rem] lg:w-[24rem]">
+            Book your trip in minute, get full <br /> Control for much longer.
           </p>
         </div>
         <div className="flex flex-grow justify-between gap-8">
