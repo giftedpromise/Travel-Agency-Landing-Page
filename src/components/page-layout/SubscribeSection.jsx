@@ -5,10 +5,9 @@ import MainButton from "../MainButton";
 const SubscribeSection = () => {
   return (
     <div
-      className="relative bg-[#DFD7F9] p-[4rem] lg:-mt-[10rem]"
+      className="relative bg-[#DFD7F9] p-[2rem] lg:-mt-[10rem] lg:p-[4rem]"
       style={{
         borderRadius: "20px 129px 20px 20px",
-        overflowX: "hidden", // Adding overflow hidden for small screens
       }}
     >
       <div className="z-20">

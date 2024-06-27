@@ -57,7 +57,7 @@ function App() {
         {" "}
         <LogoGroupSection />
       </div>
-      <div className="mb-48">
+      <div className="mx-auto mb-48 max-w-[90vw]">
         {" "}
         <SubscribeSection />
       </div>
