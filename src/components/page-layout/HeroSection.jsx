@@ -3,16 +3,13 @@ import MainButton from "../MainButton";
 
 function HeroSection() {
   return (
-    <section
-      className="mt-16 flex items-center justify-between md:z-[9999]"
-      style={{ overflowX: "hidden" }}
-    >
+    <section className="mt-16 flex items-center justify-between md:z-[9999]">
       <div className="pt-32 md:pt-4">
         <p className="font-poppins mb-4 text-[1.128rem] font-[700] uppercase text-primary">
           Best Destinations around the world
         </p>
         <div className="flex flex-col">
-          <div className="volkhov leading-large inline-flex text-[3rem] font-[700] text-lightBlue md:text-[3.8rem]">
+          <div className="volkhov leading-large text-[2.5rem] font-[700] text-lightBlue md:text-[3.8rem]">
             Travel,
             <div className="flex flex-col">
               <span className="z-10 ml-8">enjoy</span>
@@ -24,7 +21,7 @@ function HeroSection() {
             </div>
           </div>
 
-          <p className="volkhov leading-large inline-flex text-[3rem] font-[700] text-lightBlue md:text-[3.8rem]">
+          <p className="volkhov leading-large text-[2.5rem] font-[700] text-lightBlue md:text-[3.8rem]">
             and live a new and full life
           </p>
         </div>
