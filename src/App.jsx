@@ -17,7 +17,7 @@ function App() {
         {`
           @media screen and (max-width: 768px) {
             body {
-              overflow-x: hidden; /* Hide horizontal overflow on small screens */
+              overflow: hidden; /* Hide horizontal overflow on small screens */
             }
           }
         `}
