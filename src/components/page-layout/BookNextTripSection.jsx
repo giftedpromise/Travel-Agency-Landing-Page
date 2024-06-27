@@ -27,7 +27,7 @@ function BookNextTripSection() {
   ];
 
   return (
-    <section className="mt-[-10rem] flex flex-col items-center justify-between md:flex-row">
+    <section className="mt-[-10rem] flex flex-col items-center justify-between pl-4 md:flex-row md:pl-0">
       <div>
         <p className="font-poppins text-left text-[1.125rem] font-semibold text-lightGray">
           Easy and Fast
