@@ -12,19 +12,17 @@ function FooterSection() {
             Book your trip in minute, get full <br /> Control for much longer.
           </p>
         </div>
-        <div className="flex flex-grow justify-between gap-8">
+        <div className="flex flex-grow justify-between gap-8 lg:ml-[-5rem]">
+          {" "}
+          {/* Adjusted margin for large screens */}
           <div className="flex flex-col gap-4">
             <p className="text-[1.3125rem] font-[700] text-lightBlack">
               Company
             </p>
             <div className="flex flex-col gap-2">
-              <p className="text-[1.125rem] font-[500] text-lightGray">About</p>
-              <p className="text-[1.125rem] font-[500] text-lightGray">
-                Careers
-              </p>
-              <p className="text-[1.125rem] font-[500] text-lightGray">
-                Mobile
-              </p>
+              <p className="text-[1rem] font-normal text-lightGray">About</p>
+              <p className="text-[1rem] font-normal text-lightGray">Careers</p>
+              <p className="text-[1rem] font-normal text-lightGray">Mobile</p>
             </div>
           </div>
           <div className="flex flex-col gap-4">
@@ -32,11 +30,9 @@ function FooterSection() {
               Contact
             </p>
             <div className="flex flex-col gap-2">
-              <p className="text-[1.125rem] font-[500] text-lightGray">
-                Help/FAQ
-              </p>
-              <p className="text-[1.125rem] font-[500] text-lightGray">Press</p>
-              <p className="text-[1.125rem] font-[500] text-lightGray">
+              <p className="text-[1rem] font-normal text-lightGray">Help/FAQ</p>
+              <p className="text-[1rem] font-normal text-lightGray">Press</p>
+              <p className="text-[1rem] font-normal text-lightGray">
                 Affiliates
               </p>
             </div>
@@ -44,13 +40,11 @@ function FooterSection() {
           <div className="flex flex-col gap-4">
             <p className="text-[1.3125rem] font-[700] text-lightBlack">More</p>
             <div className="flex flex-col gap-2">
-              <p className="text-[1.125rem] font-[500] text-lightGray">
+              <p className="text-[1rem] font-normal text-lightGray">
                 Airline Fees
               </p>
-              <p className="text-[1.125rem] font-[500] text-lightGray">
-                Airline
-              </p>
-              <p className="text-[1.125rem] font-[500] text-lightGray">
+              <p className="text-[1rem] font-normal text-lightGray">Airline</p>
+              <p className="text-[1rem] font-normal text-lightGray">
                 Low Fare Tips
               </p>
             </div>
@@ -82,7 +76,7 @@ function FooterSection() {
                 </div>
               </div>
             </div>
-            <div className="rounded-extraLarge w-[14rem] bg-lightBlack px-[1.06rem] py-[0.58rem]">
+            <div className="rounded-extraLarge w-[11rem] bg-lightBlack px-[1.06rem] py-[0.58rem]">
               <div className="flex items-center gap-4">
                 <img src="/images/app-icon.png" alt="apple store icon" />
                 <div>
