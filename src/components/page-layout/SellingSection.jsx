@@ -30,7 +30,7 @@ function SellingSection() {
   ];
 
   return (
-    <section>
+    <section style={{ overflowX: "hidden" }}>
       <p className="text-center text-[1.125rem] font-[600] text-lightGray">
         Top Selling
       </p>
