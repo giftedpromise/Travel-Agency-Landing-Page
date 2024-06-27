@@ -6,7 +6,10 @@ const SubscribeSection = () => {
   return (
     <div
       className="relative bg-[#DFD7F9] p-[4rem] lg:-mt-[10rem]"
-      style={{ borderRadius: "20px 129px 20px 20px" }}
+      style={{
+        borderRadius: "20px 129px 20px 20px",
+        overflowX: "hidden", // Adding overflow hidden for small screens
+      }}
     >
       <div className="z-20">
         <p className="font-poppins mb-[2.63rem] text-center text-[1.5rem] font-[600] text-lightGray">

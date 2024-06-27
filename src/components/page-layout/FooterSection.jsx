@@ -2,10 +2,7 @@ import React from "react";
 
 function FooterSection() {
   return (
-    <section
-      className="mx-auto max-w-screen-xl px-4"
-      style={{ overflow: "hidden" }}
-    >
+    <section className="mx-auto max-w-screen-xl px-4">
       <div className="flex flex-col justify-between gap-4 md:flex-row">
         <div className="max-w-sm">
           <p>
