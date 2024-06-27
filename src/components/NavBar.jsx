@@ -12,7 +12,10 @@ function NavBar() {
   return (
     <div className="z-20 md:top-0 md:shadow-none">
       {/* DESKTOP VIEW */}
-      <div className="animate-in fade-in zoom-in hidden p-4 lg:block">
+      <div
+        className="animate-in fade-in zoom-in hidden p-4 lg:block"
+        style={{ overflowX: "hidden" }}
+      >
         <div className="flex items-center justify-between">
           <div>
             <img src="/images/logo.png" alt="logo" /> {/* Logo */}
