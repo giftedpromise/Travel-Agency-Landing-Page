@@ -40,7 +40,7 @@ function App() {
         {" "}
         <BookNextTripSection />
       </div>
-      <div className="mt-44">
+      <div className="mt-16 md:mt-44">
         {" "}
         <TestimonialSection />
       </div>

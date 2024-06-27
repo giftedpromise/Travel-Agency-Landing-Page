@@ -24,10 +24,10 @@ function TestimonialSection() {
   return (
     <section className="flex flex-col items-center justify-between gap-16 lg:-mt-[5rem] xl:flex-row">
       <div>
-        <p className="font-poppins text-[1.125rem] font-semibold uppercase text-lightGray">
+        <p className="font-poppins pl-4 text-[1.125rem] font-semibold uppercase text-lightGray md:pl-0">
           Testimonials
         </p>
-        <p className="volkhov font-poppins text-[3.125rem] font-bold text-title">
+        <p className="volkhov font-poppins pl-4 text-[3.125rem] font-bold text-title md:pl-0">
           What People Say About Us.
         </p>
 
